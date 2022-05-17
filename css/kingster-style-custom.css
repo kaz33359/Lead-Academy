@@ -187,9 +187,9 @@ body.kingster-boxed .kingster-body-wrapper{ margin-top: 0px; margin-bottom: 0px;
 .kingster-header-side-nav{ width: 340px; }.kingster-header-side-content.kingster-style-left{ margin-left: 340px; }.kingster-header-side-content.kingster-style-right{ margin-right: 340px; } 
 .kingster-header-side-nav.kingster-style-side{ padding-left: 70px; padding-right: 70px; }.kingster-header-side-nav.kingster-style-left .sf-vertical > li > ul.sub-menu{ padding-left: 70px; }.kingster-header-side-nav.kingster-style-right .sf-vertical > li > ul.sub-menu{ padding-right: 70px; } 
  .kingster-navigation .sf-vertical > li{ padding-top: 16px; padding-bottom: 16px; } 
-.kingster-header-style-bar .kingster-logo-right-text{ padding-top: 30px; } 
-.kingster-logo{ padding-top: 24px; } 
-.kingster-logo{ padding-bottom: 28px; } 
+.kingster-header-style-bar .kingster-logo-right-text{ padding-top: 10px; } 
+.kingster-logo{ padding-top: 10px; } 
+.kingster-logo{ padding-bottom: 20px; } 
 .kingster-logo-inner{ max-width: 330px; } 
 @media only screen and (max-width: 1260px){ .kingster-mobile-header .kingster-logo-inner{ max-width: 250px; } } 
 @media only screen and (max-width: 767px){ .kingster-mobile-header .kingster-logo-inner{ max-width: 180px; } } 
@@ -198,7 +198,7 @@ body.kingster-boxed .kingster-body-wrapper{ margin-top: 0px; margin-bottom: 0px;
 .kingster-navigation .kingster-main-menu{ padding-right: 0px; } 
 .kingster-main-menu-right-wrap{ margin-top: 6px; } 
 .kingster-fixed-navigation.kingster-style-slide .kingster-logo-inner img{ max-height: none !important; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo-inner, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo-inner{ max-width: 220px; } 
-.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-top: 23px; } 
+.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-top: 10px; } 
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-logo, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-logo{ padding-bottom: 20px; } 
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-navigation, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-navigation{ padding-top: 30px; }.kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-navigation-top, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-navigation-top{ top: 30px; } 
 .kingster-animate-fixed-navigation.kingster-header-style-plain .kingster-navigation .sf-menu > li > a, .kingster-animate-fixed-navigation.kingster-header-style-boxed .kingster-navigation .sf-menu > li > a{ padding-bottom: 25px; } 
@@ -863,7 +863,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_983a_8{text-transform: none ;}
 #div_983a_9{padding: 90px 0px 40px 0px;}
 #div_983a_10{background-color: #192f59 ;}
-#div_983a_11{opacity: 0.5 ;background-image: url(../upload/coming-soon.jpg) ;background-size: cover ;background-position: center ;}
+#div_983a_11{opacity: 0.5 ;background-image: url(../images/background1.jpg) ;background-size: cover ;background-position: center ;}
 #div_983a_12{border-width: 0px;}
 #div_983a_13{padding-bottom: 25px ;}
 #h3_983a_1{font-size: 18px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;color: #3db166 ;}

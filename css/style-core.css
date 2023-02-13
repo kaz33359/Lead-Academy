@@ -105,6 +105,10 @@ video {
 	margin: 0;
 	padding: 0;
 }
+/* li span {
+	position: relative;
+	left: -10px;
+  } */
 
 article,
 aside,

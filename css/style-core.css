@@ -105,10 +105,15 @@ video {
 	margin: 0;
 	padding: 0;
 }
-/* li span {
-	position: relative;
-	left: -10px;
-  } */
+.content {
+	overflow: hidden;
+  }
+  
+  .text {
+	height: 80px;
+	overflow: hidden;
+	transition: height 1s ease-out;
+  }
 
 article,
 aside,

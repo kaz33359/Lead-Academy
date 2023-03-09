@@ -11,7 +11,7 @@
     <title>Leads Academy</title>
     <meta name="title" content="Leads Academy">
     <meta name="description"
-        content="Finishing School for Civil Engineers">
+        content="Professional Safety Training Academy">
     <meta name="author" content="Leads Academy">
     <meta name="keywords"
         content="">
@@ -353,11 +353,11 @@
                                                                 <p>Unleash the safety pro in you with Leads Academy - the ultimate destination for professionals seeking top-notch training and education.  </p>
                                                                 <p>We provide a comprehensive curriculum that will equip you with the knowledge and skills you need to excel in your field.  </p>
                                                                 <ul>
-                                                                    <li>ISO Lead Auditor courses</li>
-                                                                    <li>MSME Diploma in Industrial Safety </li>
-                                                                    <li>STED Council Professional Certifications</li>
-                                                                    <li>OTHM Level 6 Diploma</li>
-                                                                    <li>Basic Safety Awareness Training </li>
+                                                                    <li style="font-weight:500">ISO Lead Auditor courses</li>
+                                                                    <li style="font-weight:500">MSME Diploma in Industrial Safety </li>
+                                                                    <li style="font-weight:500">STED Council Professional Certifications</li>
+                                                                    <li style="font-weight:500">OTHM Level 6 Diploma</li>
+                                                                    <li style="font-weight:500">Basic Safety Awareness Training </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -417,8 +417,8 @@
                                                             <li style="color: #51be78;"><span style="position: relative;left: -10px;">NVQ Level 6 Diploma in Occupational Health and Safety. </span></li>
                                                             <br>
                                                             These advanced courses are ideal for those looking to progress in their careers and gain a deeper understanding of the industry.In addition to our NEBOSH and IOSH courses, we also offer a range of other safety training options, including 
-                                                   <li style="color: #51be78;"><span style="position: relative;left: -10px;">first aid training</span> </li>
-                                                   <li style="color: #51be78;"><span style="position: relative;left: -10px;">one-year diploma training program.</span>
+                                                   <li style="color: #51be78;"><span style="position: relative;left: -10px;">First aid training</span> </li>
+                                                   <li style="color: #51be78;"><span style="position: relative;left: -10px;">One-year diploma training program.</span>
                                                     </li>
                                                         </p>
                                                         
@@ -956,6 +956,54 @@
                             </div>
                         </div>
                     </div> -->
+
+
+                    {{-- BLOGS START --}}
+                    <div class="gdlr-core-pbf-wrapper " style="padding: 80px 0px 30px 0px;" data-skin="Blut Title Column Service">
+                        <div class="gdlr-core-pbf-background-wrap"></div>
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-blog-item gdlr-core-item-pdb clearfix  gdlr-core-style-blog-column" style="padding-bottom: 0px ;">
+                                        <div class="gdlr-core-block-item-title-wrap  gdlr-core-left-align gdlr-core-item-mglr" style="margin-bottom: 40px ;">
+                                            <div class="gdlr-core-block-item-title-inner clearfix">
+                                                <h3 class="gdlr-core-block-item-title" style="font-size: 28px ;font-style: normal ;text-transform: none ;letter-spacing: 0px ;color: #0f1110 ;">Our Blogs</h3>
+                                                <div class="gdlr-core-block-item-title-divider" style="font-size: 24px ;border-bottom-width: 2px ;"></div>
+                                            </div><a href="{{ url('/blog') }}" class="gdlr-core-block-item-read-more" href="#" target="_self" style="color: #3db166 ;"> Read All Blogs</a></div>
+                                        <div class="gdlr-core-pbf-section-container gdlr-core-container clearfix">
+                            <div class="gdlr-core-pbf-element">
+                                <div class="gdlr-core-blog-item gdlr-core-item-pdb clearfix  gdlr-core-style-blog-image" style="padding-bottom: 40px ;">
+                                    <div class="gdlr-core-blog-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
+                                      <?php
+                                      $blog=DB::table('blogs')->get(); ?>
+                                      @foreach ($blog as $item)
+                                        <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-item-mgb gdlr-core-column-20">
+                                            <div class="gdlr-core-blog-modern  gdlr-core-with-image gdlr-core-hover-overlay-content gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
+                                                <div class="gdlr-core-blog-modern-inner">
+                                                    <div class="gdlr-core-blog-thumbnail gdlr-core-media-image"><img src="{{asset('adminBlog_image')}}/{{ $item->blog_image }}"  style="height:400px; width:auto;
+                                                    "  alt="" /></div>
+                                                    <div class="gdlr-core-blog-modern-content  gdlr-core-center-align">
+                                                        <h3 class="gdlr-core-blog-title gdlr-core-skin-title" style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ;"><a href="blogdetails.html" >{{ $item->blog_title }}</a></h3>
+                                                        <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider"><span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date">{{ $item->posted_date }}</span><span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-author"><span class="gdlr-core-head" >By</span>{{ $item->author_name }}</span>
+                                                        </div>
+                                                        <button class="submit-button"><a style="color: #ffffff" href="{{ url('user/blogDetails') }}/{{ $item->id }}">Read Blog</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @endforeach
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- BLOG END --}}
+
+
+
                     <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">

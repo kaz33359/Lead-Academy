@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact - Leads Academy</title>
     <meta name="title" content="Leads Academy">
-    <meta name="description" content="Finishing School for Civil Engineers">
+    <meta name="description" content="Professional Safety Training Academy">
     <meta name="author" content="Leads Academy">
     <meta name="keywords" content="">
     <meta name="image" content="{{ asset('user/assets/images/leads_OGImage.jpg') }}" />

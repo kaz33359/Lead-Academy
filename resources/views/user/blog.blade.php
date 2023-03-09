@@ -11,7 +11,7 @@
     <title>Blogs - Leads Academy</title>
     <meta name="title" content="Leads Academy">
     <meta name="description"
-        content="Finishing School for Civil Engineers">
+        content="Professional Safety Training Academy">
     <meta name="author" content="Leads Academy">
     <meta name="keywords"
         content="">

@@ -8,14 +8,14 @@
     <!-- <title>Kingster &#8211; School, College &amp; University HTML Template</title> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About - Leads Academy</title>
+    <title>Leads Academy - About</title>
     <meta name="title" content="Leads Academy">
     <meta name="description"
-        content="Finishing School for Civil Engineers">
+        content="Professional Safety Training Academy">
     <meta name="author" content="Leads Academy">
     <meta name="keywords"
         content="">
-    <meta name="image" content="{{asset('user/assets/images/leads_OGImage"')}} />
+    <meta name="image" content="{{ asset('user/assets/images/leads_OGImage.jpg') }}" />
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph / Facebook -->
@@ -24,7 +24,7 @@
     <meta property="og:title" content="Leads Academy">
     <meta property="og:description"
         content="">
-    <meta property="og:image" content="{{asset('user/assets/images/leads_OGImage.jpg')}}" />
+    <meta property="og:image" content="{{ asset('user/assets/images/leads_OGImage.jpg') }}" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -32,10 +32,10 @@
     <meta property="twitter:title" content="Leads Academy">
     <meta property="twitter:description"
         content="">
-    <meta property="twitter:image" content="{{asset('user/assets/images/leads_OGImage.jpg')}}" />
+    <meta property="twitter:image" content="{{ asset('user/assets/images/leads_OGImage.jpg') }}" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{asset('user/assets/images/leads_OGImage.jpg')}}">
+    <link rel="shortcut icon" href="{{ asset('user/assets/images/leads_OGImage.jpg') }}">
 
     <link rel='stylesheet' href='{{asset('user/assets/plugins/goodlayers-core/plugins/combine/style.css')}}' type='text/css' media='all' />
     <link rel='stylesheet' href='{{asset('user/assets/plugins/goodlayers-core/include/css/page-builder.css')}}' type='text/css' media='all' />
